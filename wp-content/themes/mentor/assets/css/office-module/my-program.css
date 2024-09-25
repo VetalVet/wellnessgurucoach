@@ -1,0 +1,246 @@
+@media screen and (max-width:991px) {
+	.my-program{
+		padding-top: 84px;
+	}
+}
+
+.my-program.hide{
+	display: none;
+}
+
+.my-program__name-package{
+	color: rgba(0, 0, 0, 0.60);
+	font-family: Lato;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: capitalize;
+	margin-bottom: 13px;
+}
+
+
+@media screen and (max-width:480px) {
+	.my-program__name-package{
+		font-size: 16px;
+		margin-bottom: 16px;
+	}
+}
+
+
+.my-program__time-package{
+	display: flex;
+	/* margin-left: 29px; */
+	gap: 22px;
+	margin-bottom: 38px;
+	position: relative;
+}
+
+.my-program__time-package::before{
+	content:url('../../img/bxs_time.svg');
+	left: 0;
+	top:0;
+}
+
+.my-program__time{
+	color: #999;
+	font-family: Lato;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.28px;
+	text-transform: capitalize;
+}
+
+.my-program__package-usage{
+	display: flex;
+	gap: 72px;
+	margin-bottom: 96.44px;
+}
+
+@media screen and (max-width:480px) {
+	.my-program__package-usage{
+		margin-bottom: 67.44px;
+	}
+}
+
+.my-program__appointments,
+.my-program__package-price{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.my-program__appointments-usage,
+.my-program__price{
+	color: #37B048;
+	text-align: center;
+	font-family: Lato;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 68.57px; /* 142.854% */
+	margin-bottom: 2.56px;
+}
+
+.my-program__appointments-title,
+.my-program__price-title{
+	color: #000;
+	text-align: center;
+	font-family: Lato;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: capitalize;
+	opacity: 0.5;
+}
+
+.my-program__paymentsh-title{
+	margin: 0;
+	color: #1D1D1D;
+	font-family: Lato;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: normal;
+	letter-spacing: 0.32px;
+	text-transform: capitalize;
+	margin-bottom: 37px;
+}
+
+
+.my-program__paymentsh-table{
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 80px);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	list-style: none;
+	padding: 0;
+}
+
+@media screen and (max-width:786px) {
+	.my-program__paymentsh-table{
+		width: 100%;
+	}
+}
+
+.my-program__paymentsh-table li{
+	display: flex;
+	/*justify-content: center;*/
+	align-items: center;
+	padding: 0 20px;
+}
+
+.my-program__paymentsh-table li:nth-child(4n+1) {
+	justify-content: flex-start;
+}
+
+.my-program__item-title{
+	background: #FAF9F6;
+	color: rgba(0, 0, 0, 0.60);
+	font-family: Lato;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.32px;
+	text-transform: capitalize;
+}
+
+.my-program__item-data{
+	color: rgba(0, 0, 0, 0.60);
+	font-family: Lato;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.32px;
+}
+
+@media screen and (max-width:1199px) {
+	.my-program__packages .pricing .row{
+		flex-wrap: wrap;
+	}	
+	
+}
+
+
+@media screen and (max-width:991px) {
+	.my-program__packages{
+		margin-top: 101px;
+	}	
+	.my-program__packages .pricing .row{
+		flex-wrap: nowrap;
+	}	
+}
+
+@media (max-width: 480px) {
+
+	.my-program__item-title {
+		display: none !important;
+	}
+
+	.my-program__paymentsh-table {
+		display: flex;
+		flex-wrap: wrap;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.my-program__paymentsh-table > li {
+		width: 25%; /* Four items per row in desktop view */
+		box-sizing: border-box;
+		padding: 10px;
+	}
+
+
+	.my-program__paymentsh-table > li {
+		width: 100%; /* One item per row in mobile view */
+	}
+
+	.my-program__item-data::before {
+		content: attr(data-label);
+		font-weight: bold;
+		display: block;
+	}
+
+	.my-program__paymentsh-table > li {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.my-program__paymentsh-table li:nth-child(4n+1) {
+		justify-content: space-between;
+	}
+
+	/*.my-program__paymentsh-table > li:nth-child(4n + 1),*/
+	/*.my-program__paymentsh-table > li:nth-child(4n + 2),*/
+	/*.my-program__paymentsh-table > li:nth-child(4n + 3),*/
+	/*.my-program__paymentsh-table > li:nth-child(4n + 4) {*/
+	/*	margin-bottom: 5px; !* Add spacing between blocks *!*/
+	/*}*/
+
+	.my-program__paymentsh-table > li:nth-child(4n + 4) {
+		margin-bottom: 30px;
+	}
+
+	/* Alternating background colors for sets of 4 rows */
+	.my-program__paymentsh-table > li:nth-child(8n + 1),
+	.my-program__paymentsh-table > li:nth-child(8n + 2),
+	.my-program__paymentsh-table > li:nth-child(8n + 3),
+	.my-program__paymentsh-table > li:nth-child(8n + 4) {
+		background-color: #f0f0f0;
+	}
+
+	.my-program__paymentsh-table > li:nth-child(8n + 5),
+	.my-program__paymentsh-table > li:nth-child(8n + 6),
+	.my-program__paymentsh-table > li:nth-child(8n + 7),
+	.my-program__paymentsh-table > li:nth-child(8n + 8) {
+		background-color: #ffffff;
+	}
+}

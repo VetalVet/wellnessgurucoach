@@ -1,0 +1,32 @@
+.forgot__form{
+	display: flex;
+	justify-content: center;
+	padding: 50px 0;
+}
+
+.forgot__form-group{
+	border: 1px solid #000;
+	/* max-width: 200px; */
+	width: 100%;
+	margin-bottom: 10px;
+	padding:0 10px;
+}
+
+.forgot__form-control{
+	width: 100%;
+}
+
+.forgot__sign-form button{
+	background: green;
+	color:#fff;
+	outline: none;
+	border: none;
+	width: 100%;
+	/* width:200px; */
+	height: 50px;
+	padding: 0;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}

@@ -1,0 +1,4 @@
+[06-Jun-2024 09:35:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-admin/includes/admin.php on line 16

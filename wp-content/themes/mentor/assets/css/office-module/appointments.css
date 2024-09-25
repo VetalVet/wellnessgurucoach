@@ -1,0 +1,117 @@
+
+@media screen and (max-width:991px) {
+	.appointments{
+		padding-top: 28px;
+		/* display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%; */
+	}
+}
+
+@media screen and (max-width:480px) {
+	.appointments{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+}
+
+.appointments__title{
+	color:#1D1D1D;
+	font-family: Lato;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: normal;
+	letter-spacing: 0.32px;
+	text-transform: capitalize;
+}
+
+.appointments__calendar{
+	margin-bottom: 60px;
+}
+
+h3.appointments__title{
+	margin: 16px 0 39px;
+}
+
+@media screen and (max-width:991px) {
+
+	.appointments__calendar{
+		width: 100%;
+	}
+	
+	h3.appointments__title{
+		width: 290px;
+	}
+
+	.appointmets__history{
+		margin-bottom: 75px;
+	}
+}
+
+@media screen and (max-width:480px) {
+	
+}
+
+
+
+h4.appointments__title{
+	margin: 0 0 37px 0;
+}
+
+
+.appointments__paymentsh-table{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 80px);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	list-style: none;
+	padding: 0;
+}
+
+.appointments__paymentsh-table li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;
+}
+
+.appointments__paymentsh-table li:nth-child(3n+1) {
+	justify-content: flex-start;
+}
+
+.appointments__item-title{
+	background: #FAF9F6;
+	color: rgba(0, 0, 0, 0.60);
+	font-family: Lato;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.32px;
+	text-transform: capitalize;
+}
+
+.appointments__item-data{
+	color: rgba(0, 0, 0, 0.60);
+	font-family: Lato;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.32px;
+}
+
+.appointments__item-data svg{
+	margin-left: 18.45px;
+	cursor: pointer;
+}
+
+
+.appointments__item-data.active{
+	color: #37B048;
+}

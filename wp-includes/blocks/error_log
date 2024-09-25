@@ -1,0 +1,16 @@
+[31-May-2024 14:29:04 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/blocks/index.php on line 8
+[06-Jun-2024 09:34:10 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/blocks/index.php on line 8
+[06-Jun-2024 14:16:29 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/blocks/index.php on line 8
+[24-Jul-2024 05:56:32 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/blocks/index.php on line 8

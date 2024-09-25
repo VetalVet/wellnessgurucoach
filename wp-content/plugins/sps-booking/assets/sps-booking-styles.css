@@ -1,0 +1,60 @@
+#weeks-table .table {
+    border-collapse: collapse;
+}
+
+#weeks-table .table td,
+#weeks-table .table th {
+    padding: 5px 10px;
+    border: 1px solid #000;
+}
+
+#save-weeks {
+    margin-top: 15px;
+    padding: 5px 15px;
+}
+
+#custom-schedule-table {
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+#custom-schedule-table th,
+#custom-schedule-table td {
+    padding: 5px 10px;
+    border: 1px solid #000;
+}
+
+.but-booking {
+    margin-top: 15px;
+    padding: 5px 15px;
+}
+
+.pagination {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.pagination a {
+    padding: 2px 5px;
+}
+
+.pagination a.active {
+    text-decoration: none;
+    color: #000;
+}
+
+.table-user-detalies {
+    border-collapse: collapse;
+}
+
+.table-user-detalies td,
+.table-user-detalies th {
+    padding: 5px 10px;
+    border: 1px solid #000;
+}
+
+.is_deleted {
+    text-decoration: line-through;
+}
+

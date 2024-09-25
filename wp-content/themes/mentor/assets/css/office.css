@@ -1,0 +1,263 @@
+@import './office-module/personal-data.css';
+@import './office-module/appointments.css';
+@import './office-module/my-program.css';
+@import './modal/modal-appointmets.css';
+
+.office{
+	margin-bottom: 99px;
+}
+
+.office__decore-border{
+	position: absolute;
+	top:65px;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background-color: rgba(0, 0, 0, 0.10);
+}
+
+.office__title{
+	color: rgba(0, 0, 0, 0.40);
+	font-family: Lato;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26.4px; /* 110% */
+	padding: 20px 0;
+	position: relative;	
+}
+
+h2.office__title{
+	margin-bottom: 57px;
+}
+
+
+@media screen and (max-width:991px) {
+	h2.office__title{
+		margin-bottom: 32.33px;
+	}
+}
+
+.office__container{
+	display: flex;
+	gap: 146.5px;
+}
+
+.office__content{
+	width: 100%;
+}
+
+@media screen and (max-width:991px) {
+	.office__content{
+		display: none;
+	}
+}
+
+.office__sidebar{
+	width: 265.5px;
+}
+
+@media screen and (max-width:991px) {
+	.office__sidebar{
+		width: 100%;
+	}
+}
+
+.office__personal-data,
+.office__appointments,
+.office__my-program{
+	display: none;
+}
+
+.office__personal-data.active,
+.office__appointments.active,
+.office__my-program.active{
+	display: block;
+}
+/* Sidebar */
+
+ul.sidebar__list{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar__item{
+	padding: 14px 0 17.84px;
+	position: relative;
+}
+
+
+.sidebar__item::after{
+	content:'';
+	position: absolute;
+	bottom:0px;
+	left: 0px;
+	width: 262.5px;
+	height: 1px;
+	background-color: rgba(0, 0, 0, 0.10);
+}
+
+@media screen and (max-width:991px) {
+	.sidebar__item::after{
+		width: 100%;
+		bottom:0px;
+		top: 54.7px;
+	}
+}
+
+.sidebar__item a{
+	color: rgba(0, 0, 0, 0.60);
+	font-family: Lato;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22.86px; /* 142.875% */
+	text-transform: capitalize;
+	position: relative;
+	display: block;
+}
+
+@media screen and (max-width:991px) {
+	.sidebar__list .sidebar__item > a::after{
+		content:'';
+		position: absolute;
+		right: 27.32px;
+		top:50%;
+		transform: translateY(-50%);
+		width: 14.236px;
+		height: 1px;
+		background: #5F5E5D;
+	}
+	
+	.sidebar__list .sidebar__item > a::before{
+		content:'';
+		position: absolute;
+		right: 27px;
+		top:50%;
+		transform: translateY(-50%) rotate(90deg);
+		width: 14.236px;
+		height: 1px;
+		background: #5F5E5D;
+		transition: all 500ms ease 0s;
+	}	
+}
+
+@media screen and (max-width:786px) {
+	
+	.sidebar__list .sidebar__item > a::before{
+		right: 28px;
+	}	
+}
+
+
+
+@media screen and (max-width:480px) {
+	.sidebar__list .sidebar__item > a::after{
+		right: 0px;
+	}
+	
+	.sidebar__list .sidebar__item > a::before{
+		right: 0px;
+	}
+}
+
+.sidebar__item.active a::before{
+	transform: translateY(-50%) rotate(0deg);
+	transition: all 500ms ease 0s;
+}
+
+.sidebar__item:last-child a::before{
+	content:'';
+	display: none;
+}
+
+.sidebar__item:last-child a::after{
+	content:'';
+	display: none;
+}
+
+.sidebar__item a:hover{
+	color: #000;
+}
+
+.sidebar__item.active a{
+	color: #000;
+	position: relative;
+}
+
+.sidebar__item:last-child a{
+	display: flex;
+	align-items:center;
+}
+
+@media screen and (max-width:991px) {
+	.sidebar__item.active a{
+		color: #000;
+		font-family: Lato;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 22.86px; /* 142.875% */
+	}
+}
+
+@media screen and (max-width:480px) {
+	.sidebar__item{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.sidebar__item a{
+		display: block;
+		width: 290px;
+	}
+}
+
+.sidebar__item a svg{
+	margin-left: 10px;
+
+	/* position: absolute; */
+	/* top: 47%;
+	transform: translateY(-50%);
+	right: 120px; */
+	/* padding-left: 10px;
+	display: inline-block; */
+}
+
+@media screen and (max-width:480px) {
+	.sidebar__item a svg{
+		position: relative;
+		left: auto; 
+		right: -225px;
+		top: 10%;
+		transform: none;
+	}
+}
+
+.sidebar__personal-data,
+.sidebar__appointments,
+.sidebar__my-program{
+	display: none;
+}
+
+
+@media screen and (max-width:991px) {
+	.sidebar__personal-data,
+	.sidebar__appointments,
+	.sidebar__my-program{
+		height: 0;	
+		overflow: hidden;
+		display: block;
+	}
+
+	.sidebar__personal-data.active,
+	.sidebar__appointments.active,
+	.sidebar__my-program.active{
+		height: var(--var-height);	
+		overflow: visible;
+		transition: all 500ms ease 0s;
+	}
+}
+

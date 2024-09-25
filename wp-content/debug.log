@@ -1,0 +1,387 @@
+[18-Jul-2024 10:07:50 America/New_York] PHP Warning:  Undefined variable $subscribe in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/acount/my-program.php on line 1
+[18-Jul-2024 10:07:58 America/New_York] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer\PHPMailer\PHPMailer" not found in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/functions.php:25
+Stack trace:
+#0 /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/plugins/sps-booking/sps-booking-plugin.php(692): send_email_gmai()
+#1 /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/class-wp-hook.php(324): handle_save_appointment()
+#2 /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-admin/admin-ajax.php(192): do_action()
+#5 {main}
+  thrown in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/functions.php on line 25
+[18-Jul-2024 10:08:12 America/New_York] PHP Warning:  Undefined variable $subscribe in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/acount/my-program.php on line 1
+[18-Jul-2024 10:08:17 America/New_York] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer\PHPMailer\PHPMailer" not found in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/functions.php:25
+Stack trace:
+#0 /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/plugins/sps-booking/sps-booking-plugin.php(692): send_email_gmai()
+#1 /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/class-wp-hook.php(324): handle_save_appointment()
+#2 /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-admin/admin-ajax.php(192): do_action()
+#5 {main}
+  thrown in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/functions.php on line 25
+[18-Jul-2024 10:13:05 America/New_York] PHP Warning:  Undefined variable $subscribe in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/acount/my-program.php on line 1
+[18-Jul-2024 10:13:12 America/New_York] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer\PHPMailer\PHPMailer" not found in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/functions.php:25
+Stack trace:
+#0 /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/plugins/sps-booking/sps-booking-plugin.php(692): send_email_gmai()
+#1 /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/class-wp-hook.php(324): handle_save_appointment()
+#2 /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-admin/admin-ajax.php(192): do_action()
+#5 {main}
+  thrown in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/functions.php on line 25
+[18-Jul-2024 10:16:11 America/New_York] PHP Warning:  Undefined variable $subscribe in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/acount/my-program.php on line 1
+[18-Jul-2024 10:16:17 America/New_York] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\PHPMailer\PHPMailer\PHPMailer" not found in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/functions.php:30
+Stack trace:
+#0 /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/plugins/sps-booking/sps-booking-plugin.php(692): send_email_gmai()
+#1 /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/class-wp-hook.php(324): handle_save_appointment()
+#2 /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-admin/admin-ajax.php(192): do_action()
+#5 {main}
+  thrown in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/functions.php on line 30
+[18-Jul-2024 10:19:01 America/New_York] PHP Warning:  Undefined variable $subscribe in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/acount/my-program.php on line 1
+[18-Jul-2024 10:21:19 America/New_York] Message could not be sent. Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to serverSMTP server error: Failed to connect to server SMTP code: 101 Additional SMTP info: Network is unreachable
+[18-Jul-2024 10:21:19 America/New_York] Failed to send email to marina@wellnessgurucoach.com
+[18-Jul-2024 10:58:00 America/New_York] PHP Warning:  Undefined variable $subscribe in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/acount/my-program.php on line 1
+[18-Jul-2024 11:00:17 America/New_York] Message could not be sent. Mailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to serverSMTP server error: Failed to connect to server SMTP code: 101 Additional SMTP info: Network is unreachable
+[18-Jul-2024 11:00:17 America/New_York] Failed to send email to marina@wellnessgurucoach.com
+[18-Jul-2024 11:06:14 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[18-Jul-2024 11:06:14 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[18-Jul-2024 11:06:14 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[18-Jul-2024 12:07:21 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[18-Jul-2024 12:07:21 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[18-Jul-2024 12:07:21 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[18-Jul-2024 14:37:53 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[18-Jul-2024 14:37:53 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[18-Jul-2024 14:37:53 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[18-Jul-2024 17:02:10 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[18-Jul-2024 17:02:10 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[18-Jul-2024 17:02:10 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[18-Jul-2024 22:33:38 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[18-Jul-2024 22:33:38 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[18-Jul-2024 22:33:38 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[19-Jul-2024 01:08:12 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[19-Jul-2024 01:08:12 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[19-Jul-2024 01:08:12 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[19-Jul-2024 04:13:55 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[19-Jul-2024 04:13:55 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[19-Jul-2024 04:13:55 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[19-Jul-2024 05:05:12 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[19-Jul-2024 05:05:12 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[19-Jul-2024 05:05:12 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[19-Jul-2024 05:10:48 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[19-Jul-2024 05:10:48 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[19-Jul-2024 05:10:48 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[19-Jul-2024 05:10:50 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[19-Jul-2024 05:10:50 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[19-Jul-2024 05:10:50 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[19-Jul-2024 05:26:42 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[19-Jul-2024 05:26:42 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[19-Jul-2024 05:26:42 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[19-Jul-2024 06:34:13 America/New_York] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 7288
+[19-Jul-2024 06:34:13 America/New_York] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 2187
+[19-Jul-2024 06:41:45 America/New_York] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 7288
+[19-Jul-2024 06:41:45 America/New_York] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 2187
+[19-Jul-2024 06:41:49 America/New_York] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 7288
+[19-Jul-2024 06:41:49 America/New_York] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 2187
+[19-Jul-2024 06:41:49 America/New_York] PHP Notice:  Function register_rest_route was called incorrectly. The REST API route definition for paypal/ipn is missing the required permission_callback argument. For REST API routes that are intended to be public, use __return_true as the permission callback. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 6078
+[19-Jul-2024 06:42:01 America/New_York] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 7288
+[19-Jul-2024 06:42:01 America/New_York] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 2187
+[19-Jul-2024 06:42:04 America/New_York] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 7288
+[19-Jul-2024 06:42:04 America/New_York] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 2187
+[19-Jul-2024 06:42:04 America/New_York] PHP Notice:  Function register_rest_route was called incorrectly. The REST API route definition for paypal/ipn is missing the required permission_callback argument. For REST API routes that are intended to be public, use __return_true as the permission callback. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 6078
+[19-Jul-2024 06:42:08 America/New_York] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 7288
+[19-Jul-2024 06:42:08 America/New_York] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 2187
+[19-Jul-2024 06:42:10 America/New_York] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 7288
+[19-Jul-2024 06:42:10 America/New_York] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 2187
+[19-Jul-2024 06:42:13 America/New_York] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 7288
+[19-Jul-2024 06:42:13 America/New_York] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 2187
+[19-Jul-2024 06:43:32 America/New_York] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 7288
+[19-Jul-2024 06:43:32 America/New_York] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 2187
+[19-Jul-2024 06:43:39 America/New_York] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 7288
+[19-Jul-2024 06:43:39 America/New_York] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 2187
+[19-Jul-2024 06:43:39 America/New_York] PHP Notice:  Function register_rest_route was called incorrectly. The REST API route definition for paypal/ipn is missing the required permission_callback argument. For REST API routes that are intended to be public, use __return_true as the permission callback. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 6078
+[19-Jul-2024 06:54:29 America/New_York] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 7288
+[19-Jul-2024 06:54:29 America/New_York] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 2187
+[19-Jul-2024 06:56:05 America/New_York] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 7288
+[19-Jul-2024 06:56:05 America/New_York] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 2187
+[19-Jul-2024 06:56:20 America/New_York] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 7288
+[19-Jul-2024 06:56:20 America/New_York] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 2187
+[19-Jul-2024 06:56:21 America/New_York] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 7288
+[19-Jul-2024 06:56:21 America/New_York] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 2187
+[19-Jul-2024 06:56:21 America/New_York] PHP Notice:  Function register_rest_route was called incorrectly. The REST API route definition for paypal/ipn is missing the required permission_callback argument. For REST API routes that are intended to be public, use __return_true as the permission callback. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 6078
+[19-Jul-2024 06:57:29 America/New_York] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 7288
+[19-Jul-2024 06:57:29 America/New_York] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 2187
+[19-Jul-2024 06:57:30 America/New_York] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 7288
+[19-Jul-2024 06:57:30 America/New_York] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 2187
+[19-Jul-2024 06:57:30 America/New_York] PHP Notice:  Function register_rest_route was called incorrectly. The REST API route definition for paypal/ipn is missing the required permission_callback argument. For REST API routes that are intended to be public, use __return_true as the permission callback. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 6078
+[19-Jul-2024 06:58:08 America/New_York] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 7288
+[19-Jul-2024 06:58:08 America/New_York] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 2187
+[19-Jul-2024 06:58:09 America/New_York] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 7288
+[19-Jul-2024 06:58:09 America/New_York] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 2187
+[19-Jul-2024 06:58:09 America/New_York] PHP Notice:  Function register_rest_route was called incorrectly. The REST API route definition for paypal/ipn is missing the required permission_callback argument. For REST API routes that are intended to be public, use __return_true as the permission callback. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 6078
+[19-Jul-2024 06:58:26 America/New_York] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 7288
+[19-Jul-2024 06:58:26 America/New_York] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 2187
+[19-Jul-2024 06:58:26 America/New_York] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 7288
+[19-Jul-2024 06:58:26 America/New_York] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 2187
+[19-Jul-2024 06:58:26 America/New_York] PHP Notice:  Function register_rest_route was called incorrectly. The REST API route definition for paypal/ipn is missing the required permission_callback argument. For REST API routes that are intended to be public, use __return_true as the permission callback. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 6078
+[19-Jul-2024 06:59:02 America/New_York] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 7288
+[19-Jul-2024 06:59:02 America/New_York] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 2187
+[19-Jul-2024 06:59:03 America/New_York] PHP Deprecated:  strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 7288
+[19-Jul-2024 06:59:03 America/New_York] PHP Deprecated:  str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 2187
+[19-Jul-2024 06:59:03 America/New_York] PHP Notice:  Function register_rest_route was called incorrectly. The REST API route definition for paypal/ipn is missing the required permission_callback argument. For REST API routes that are intended to be public, use __return_true as the permission callback. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 5.5.0.) in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/functions.php on line 6078
+[19-Jul-2024 09:05:54 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[19-Jul-2024 09:05:54 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[19-Jul-2024 09:05:54 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[19-Jul-2024 12:39:52 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[19-Jul-2024 12:39:52 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[19-Jul-2024 12:39:52 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[19-Jul-2024 14:04:23 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[19-Jul-2024 14:04:23 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[19-Jul-2024 14:04:23 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[19-Jul-2024 14:18:05 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[19-Jul-2024 14:18:05 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[19-Jul-2024 14:18:05 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[19-Jul-2024 14:50:53 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[19-Jul-2024 14:50:53 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[19-Jul-2024 14:50:53 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[19-Jul-2024 15:38:23 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[19-Jul-2024 15:38:23 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[19-Jul-2024 15:38:23 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[19-Jul-2024 16:54:36 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[19-Jul-2024 16:54:36 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[19-Jul-2024 16:54:36 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[19-Jul-2024 19:57:16 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[19-Jul-2024 19:57:16 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[19-Jul-2024 19:57:16 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[20-Jul-2024 01:12:27 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[20-Jul-2024 01:12:27 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[20-Jul-2024 01:12:27 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[20-Jul-2024 02:47:01 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[20-Jul-2024 02:47:01 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[20-Jul-2024 02:47:01 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[20-Jul-2024 07:35:00 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[20-Jul-2024 07:35:00 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[20-Jul-2024 07:35:00 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[20-Jul-2024 07:54:01 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[20-Jul-2024 07:54:01 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[20-Jul-2024 07:54:01 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[20-Jul-2024 08:17:48 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[20-Jul-2024 08:17:48 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[20-Jul-2024 08:17:48 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[20-Jul-2024 08:26:04 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[20-Jul-2024 08:26:04 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[20-Jul-2024 08:26:04 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[20-Jul-2024 10:54:18 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[20-Jul-2024 10:54:18 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[20-Jul-2024 10:54:18 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[20-Jul-2024 16:21:47 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[20-Jul-2024 16:21:47 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[20-Jul-2024 16:21:47 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[20-Jul-2024 17:22:03 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[20-Jul-2024 17:22:03 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[20-Jul-2024 17:22:03 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[20-Jul-2024 19:15:59 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[20-Jul-2024 19:15:59 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[20-Jul-2024 19:15:59 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[21-Jul-2024 02:00:37 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[21-Jul-2024 02:00:37 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[21-Jul-2024 02:00:37 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[21-Jul-2024 02:00:52 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[21-Jul-2024 02:00:52 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[21-Jul-2024 02:00:52 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[21-Jul-2024 08:38:28 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[21-Jul-2024 08:38:28 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[21-Jul-2024 08:38:28 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[21-Jul-2024 08:40:41 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[21-Jul-2024 08:40:41 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[21-Jul-2024 08:40:41 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[21-Jul-2024 16:17:36 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[21-Jul-2024 16:17:36 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[21-Jul-2024 16:17:36 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[21-Jul-2024 17:27:16 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[21-Jul-2024 17:27:16 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[21-Jul-2024 17:27:16 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[21-Jul-2024 21:50:06 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[21-Jul-2024 21:50:06 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[21-Jul-2024 21:50:06 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[22-Jul-2024 02:46:56 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[22-Jul-2024 02:46:56 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[22-Jul-2024 02:46:56 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[22-Jul-2024 06:02:03 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[22-Jul-2024 06:02:03 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[22-Jul-2024 06:02:03 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[22-Jul-2024 06:09:55 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[22-Jul-2024 06:09:55 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[22-Jul-2024 06:09:55 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[22-Jul-2024 06:09:55 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[22-Jul-2024 06:09:55 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[22-Jul-2024 06:09:55 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[22-Jul-2024 07:09:23 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[22-Jul-2024 07:09:23 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[22-Jul-2024 07:09:23 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[22-Jul-2024 09:07:47 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[22-Jul-2024 09:07:47 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[22-Jul-2024 09:07:47 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[22-Jul-2024 09:29:53 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[22-Jul-2024 09:29:53 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[22-Jul-2024 09:29:53 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[22-Jul-2024 09:30:37 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[22-Jul-2024 09:30:37 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[22-Jul-2024 09:30:37 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[22-Jul-2024 09:45:51 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[22-Jul-2024 09:45:51 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[22-Jul-2024 09:45:51 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[22-Jul-2024 16:58:04 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[22-Jul-2024 16:58:04 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[22-Jul-2024 16:58:04 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[22-Jul-2024 18:49:03 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[22-Jul-2024 18:49:03 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[22-Jul-2024 18:49:03 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[22-Jul-2024 23:06:52 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[22-Jul-2024 23:06:52 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[22-Jul-2024 23:06:52 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[23-Jul-2024 04:50:31 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[23-Jul-2024 04:50:31 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[23-Jul-2024 04:50:31 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[23-Jul-2024 15:59:29 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[23-Jul-2024 15:59:29 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[23-Jul-2024 15:59:29 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[23-Jul-2024 15:59:30 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[23-Jul-2024 15:59:30 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[23-Jul-2024 15:59:30 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[23-Jul-2024 17:04:25 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[23-Jul-2024 17:04:25 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[23-Jul-2024 17:04:25 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[23-Jul-2024 17:06:27 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[23-Jul-2024 17:06:27 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[23-Jul-2024 17:06:27 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[23-Jul-2024 17:16:52 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[23-Jul-2024 17:16:52 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[23-Jul-2024 17:16:52 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[23-Jul-2024 17:32:21 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[23-Jul-2024 17:32:21 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[23-Jul-2024 17:32:21 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[23-Jul-2024 19:02:31 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[23-Jul-2024 19:02:31 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[23-Jul-2024 19:02:31 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[23-Jul-2024 23:35:32 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[23-Jul-2024 23:35:32 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[23-Jul-2024 23:35:32 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[24-Jul-2024 00:28:13 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[24-Jul-2024 00:28:13 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[24-Jul-2024 00:28:13 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[24-Jul-2024 00:28:31 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[24-Jul-2024 00:28:31 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[24-Jul-2024 00:28:31 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[24-Jul-2024 02:24:57 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[24-Jul-2024 02:24:57 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[24-Jul-2024 02:24:57 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[24-Jul-2024 04:14:14 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[24-Jul-2024 04:14:14 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[24-Jul-2024 04:14:14 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[24-Jul-2024 05:32:13 America/New_York] Exception: Invalid API endpoint. in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/plugins/mailpoet/lib/API/JSON/API.php:190
+Stack trace:
+#0 /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/plugins/mailpoet/lib/Subscription/Form.php(33): MailPoet\API\JSON\API->processRoute()
+#1 /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/class-wp-hook.php(324): MailPoet\Subscription\Form->onSubmit()
+#2 /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#3 /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-admin/admin-post.php(61): do_action()
+#5 {main}
+[24-Jul-2024 06:47:22 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[24-Jul-2024 06:47:22 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[24-Jul-2024 06:47:22 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[24-Jul-2024 08:25:21 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[24-Jul-2024 08:25:21 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[24-Jul-2024 08:25:21 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[24-Jul-2024 08:46:56 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[24-Jul-2024 08:46:56 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[24-Jul-2024 08:46:56 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[24-Jul-2024 13:19:40 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[24-Jul-2024 13:19:40 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[24-Jul-2024 13:19:40 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[24-Jul-2024 16:59:22 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[24-Jul-2024 16:59:22 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[24-Jul-2024 16:59:22 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[24-Jul-2024 17:15:28 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[24-Jul-2024 17:15:28 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[24-Jul-2024 17:15:28 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[25-Jul-2024 01:14:09 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[25-Jul-2024 01:14:09 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[25-Jul-2024 01:14:09 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[25-Jul-2024 03:39:55 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[25-Jul-2024 03:39:55 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[25-Jul-2024 03:39:55 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[25-Jul-2024 04:04:50 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[25-Jul-2024 04:04:50 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[25-Jul-2024 04:04:50 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[25-Jul-2024 04:06:44 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[25-Jul-2024 04:06:44 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[25-Jul-2024 04:06:44 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[25-Jul-2024 04:21:42 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[25-Jul-2024 04:21:42 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[25-Jul-2024 04:21:42 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[25-Jul-2024 04:54:59 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[25-Jul-2024 04:54:59 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[25-Jul-2024 04:54:59 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[25-Jul-2024 05:18:39 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[25-Jul-2024 05:18:39 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[25-Jul-2024 05:18:39 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[25-Jul-2024 06:02:02 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[25-Jul-2024 06:02:02 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[25-Jul-2024 06:02:02 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[25-Jul-2024 06:03:31 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[25-Jul-2024 06:03:31 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[25-Jul-2024 06:03:31 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[25-Jul-2024 07:40:16 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[25-Jul-2024 07:40:16 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[25-Jul-2024 07:40:16 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[25-Jul-2024 07:40:16 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[25-Jul-2024 07:40:16 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[25-Jul-2024 07:40:16 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[25-Jul-2024 07:40:17 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[25-Jul-2024 07:40:17 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[25-Jul-2024 07:40:17 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[25-Jul-2024 07:40:17 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[25-Jul-2024 07:40:17 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[25-Jul-2024 07:40:17 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[25-Jul-2024 07:45:44 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[25-Jul-2024 07:45:44 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[25-Jul-2024 07:45:44 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[25-Jul-2024 08:32:19 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[25-Jul-2024 08:32:19 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[25-Jul-2024 08:32:19 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[25-Jul-2024 09:48:23 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[25-Jul-2024 09:48:23 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[25-Jul-2024 09:48:23 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[25-Jul-2024 14:46:09 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[25-Jul-2024 14:46:09 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[25-Jul-2024 14:46:09 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[25-Jul-2024 15:09:11 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[25-Jul-2024 15:09:11 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[25-Jul-2024 15:09:11 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[25-Jul-2024 15:25:26 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[25-Jul-2024 15:25:26 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[25-Jul-2024 15:25:26 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[25-Jul-2024 16:22:24 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[25-Jul-2024 16:22:24 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[25-Jul-2024 16:22:24 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[25-Jul-2024 17:52:56 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[25-Jul-2024 17:52:56 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[25-Jul-2024 17:52:56 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[25-Jul-2024 18:47:20 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[25-Jul-2024 18:47:20 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[25-Jul-2024 18:47:20 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[25-Jul-2024 23:22:05 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[25-Jul-2024 23:22:05 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[25-Jul-2024 23:22:05 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[26-Jul-2024 01:59:58 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[26-Jul-2024 01:59:58 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[26-Jul-2024 01:59:58 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[26-Jul-2024 02:26:21 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[26-Jul-2024 02:26:21 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[26-Jul-2024 02:26:21 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[26-Jul-2024 06:19:18 America/New_York] PHP Warning:  Undefined variable $first_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 27
+[26-Jul-2024 06:19:18 America/New_York] PHP Warning:  Undefined variable $last_name in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/modules/modal-fade.php on line 28
+[26-Jul-2024 06:19:18 America/New_York] PHP Warning:  Array to string conversion in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-includes/formatting.php on line 1108
+[26-Jul-2024 06:53:11 America/New_York] PHP Warning:  Attempt to read property "number_sessions" on null in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/account-program.php on line 25
+[26-Jul-2024 06:53:11 America/New_York] PHP Warning:  Attempt to read property "booking_sessions" on null in /home/i7nxxfmrc53n/public_html/wellnessgurucoach.com/wp-content/themes/mentor/account-program.php on line 25

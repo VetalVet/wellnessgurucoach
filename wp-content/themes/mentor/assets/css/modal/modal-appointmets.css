@@ -1,0 +1,119 @@
+.modal-appointments{
+	position: fixed;
+	z-index: 99999;
+	top: -97px;
+	width: 100%;
+	height: calc(100% + 97px);
+	background: rgba(0, 0, 0, 0.50);
+	
+	opacity: 0;
+	visibility: hidden;
+	transition: all 500ms ease 0s;
+}
+
+.modal-appointments.active{
+	opacity: 1;
+	visibility: visible;
+	transition: all 500ms ease 0s;
+}
+
+.modal-appointments__window{
+	width: 593px;
+	/*height: 325px;	*/
+	background: #FFF;
+	position: relative;
+	top: 50% ;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 40.99px 64px 47px  40px;
+}
+
+.modal-appointments__scheduled{
+	color: #37B048;
+	font-family: Lato;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.36px;
+	text-transform: capitalize;
+	margin-bottom: 11px;
+}
+
+.modal-appointments__date {
+	margin-bottom: 33px;
+}
+
+.modal-appointments__date > span{
+	margin-right: 29px;
+}
+
+.modal-appointments__date  span:nth-child(2){	
+	position: relative;
+	padding-left: 21px;
+}
+
+.modal-appointments__date  span:nth-child(2)::after{	
+	content:url('../../img/bxs_time.svg');
+	position: absolute;
+	left: 0;
+	top: 62%;
+	transform: translateY(-50%);
+}
+
+.modal-appointments__message{
+	color: rgba(0, 0, 0, 0.60);
+	font-family: Lato;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.4px;
+	margin-bottom: 49.01px;
+}
+
+.modal-appointments__contact{
+	list-style: none;
+	padding-left: 0;
+}
+
+.modal-appointments__contact li{
+	padding-left: 42px;
+}
+.modal-appointments__contact li{
+	position: relative;
+}
+
+.modal-appointments__contact li a{
+	color: rgba(0, 0, 0, 0.60);
+	font-family: Lato;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.32px;
+	text-transform: capitalize;
+}
+
+.modal-appointments__contact li:first-child::after{
+	content:url('../../img/mdi_telephone.svg');
+	position: absolute;
+	top: 62%;
+	left: 0;
+	transform: translateY(-50%);
+}
+
+.modal-appointments__contact li:last-child::after{
+	content:url('../../img/ic_baseline-email.svg');
+	position: absolute;
+	top: 62%;
+	left: 0;
+	transform: translateY(-50%);
+}
+
+.modal-appointments__close{
+	position: absolute;
+	right: 37.71px;
+	top: 35px;
+	cursor: pointer;
+}
