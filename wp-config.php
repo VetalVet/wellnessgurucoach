@@ -20,13 +20,13 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wellnessguru' );
+define( 'DB_NAME', 'wellnessgurucoach' );
 
 /** Database username */
-define( 'DB_USER', 'wellnessguru' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'GWEw5DX7xbLUI8SX' );
+define( 'DB_PASSWORD', 'root' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -37,9 +37,9 @@ define( 'DB_CHARSET', 'utf8' );
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
-define('WP_HOME', 'https://wellnessgurucoach.com/');
+// define('WP_HOME', 'https://wellnessgurucoach.com/');
 
-define('WP_SITEURL', 'https://wellnessgurucoach.com/');
+// define('WP_SITEURL', 'https://wellnessgurucoach.com/');
 
 /**#@+
  * Authentication unique keys and salts.
