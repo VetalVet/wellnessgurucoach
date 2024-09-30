@@ -39,6 +39,7 @@ function update_payment_status() {
     $payment_id = intval($_POST['payment_id']);
     $new_status = isset($_POST['payment_status']) ? sanitize_text_field($_POST['payment_status']) : null;
     $close_date = isset($_POST['close_date']) ? sanitize_text_field($_POST['close_date']) : null;
+    $active = isset($_POST['active']) ? sanitize_text_field($_POST['active']) : null;
 
     $data_to_update = array();
     if ($new_status) {
@@ -47,6 +48,11 @@ function update_payment_status() {
     if ($close_date) {
         $data_to_update['close_date'] = $close_date;
     }
+    if ($active) {
+        $data_to_update['active'] = $active;
+    }
+
+    // var_dump($data_to_update);
 
     if (!empty($data_to_update)) {
         $wpdb->update(
@@ -145,7 +151,17 @@ function payments_admin_page() {
             echo '</select>';
 
             echo '</td>';
-            echo '<td>' . esc_html($payment->active) . '</td>';
+            // echo '<td>' . esc_html($payment->active) . '</td>';
+
+            echo '<td>';
+            echo '<select name="active">';
+            $statusesActive = array('0', '1'); // Add your custom statuses here
+            foreach ($statusesActive as $status) {
+                echo '<option value="' . esc_attr($status) . '" ' . selected($payment->active, $status, false) . '>' . esc_html($status) . '</option>';
+            }
+            echo '</select>';
+            echo '</td>';
+
             echo '<td>';
 
             echo '<button type="submit" class="button button-small">';

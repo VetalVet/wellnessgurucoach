@@ -48,8 +48,11 @@ h2.office__title{
 }
 
 @media screen and (max-width:991px) {
-	.office__content{
+	/* .office__content{
 		display: none;
+	} */
+	.office__container{
+		display: block;
 	}
 }
 

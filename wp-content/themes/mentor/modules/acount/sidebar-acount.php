@@ -56,9 +56,9 @@
             <a href="<?php echo esc_url(home_url('/account-program/')); ?>">
 				My Program
 			</a>
-            <div class="sidebar__my-program active">
-                <?php require('my-program.php'); ?>
-            </div>
+            <!-- <div class="sidebar__my-program active">
+                <?php //require('my-program.php'); ?>
+            </div> -->
 		</li>
 		<li class="sidebar__item">
             <a href="<?php echo wp_logout_url(home_url()); ?>">

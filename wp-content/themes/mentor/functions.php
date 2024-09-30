@@ -410,6 +410,7 @@ function handle_paypal_ipn(WP_REST_Request $request) {
             $current_time = current_time('mysql');
             $close_date = date('Y-m-d H:i:s', strtotime('+1 year', strtotime($current_time)));
 
+            // Разобраться какого фига дата окончания не сохраняется
             $wpdb->update($table_name, array(
                 'amount' => $amount,
                 'payment_completed' => $current_time,

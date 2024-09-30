@@ -1643,9 +1643,9 @@ textarea {
 }
 
 @media screen and (max-width:440px) {
-  .my-program_cont {
+  /* .my-program_cont {
     display: none;
-  }
+  } */
 
   .office__container {
     gap: 0;
