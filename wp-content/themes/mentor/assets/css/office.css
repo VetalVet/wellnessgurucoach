@@ -54,6 +54,14 @@ h2.office__title{
 	.office__container{
 		display: block;
 	}
+
+	.my-program_cont {
+		display: none;
+	}
+
+	.office__sidebar + .office__content {
+		display: none;
+	}
 }
 
 .office__sidebar{

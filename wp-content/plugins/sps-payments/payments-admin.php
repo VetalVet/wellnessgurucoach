@@ -39,6 +39,7 @@ function update_payment_status() {
     $payment_id = intval($_POST['payment_id']);
     $new_status = isset($_POST['payment_status']) ? sanitize_text_field($_POST['payment_status']) : null;
     $close_date = isset($_POST['close_date']) ? sanitize_text_field($_POST['close_date']) : null;
+    $payment_completed = isset($_POST['payment_completed']) ? $_POST['payment_completed'] : null;
     $active = isset($_POST['active']) ? sanitize_text_field($_POST['active']) : null;
 
     $data_to_update = array();
@@ -47,6 +48,9 @@ function update_payment_status() {
     }
     if ($close_date) {
         $data_to_update['close_date'] = $close_date;
+    }
+    if ($payment_completed) {
+        $data_to_update['payment_completed'] = $payment_completed;
     }
     if ($active) {
         $data_to_update['active'] = $active;
@@ -123,14 +127,23 @@ function payments_admin_page() {
             echo '<td>' . esc_html($payment->price) . '</td>';
             echo '<td>' . esc_html($payment->amount) . '</td>';
             echo '<td>' . esc_html($payment->payment_date) . '</td>';
-            echo '<td>' . esc_html($payment->payment_completed) . '</td>';
-            echo '<td>';
+            // echo '<td>' . esc_html($payment->payment_completed) . '</td>';
+            // echo '<td>';
 
             echo '<form method="post" action="' . esc_url(admin_url('admin-post.php')) . '" id="payment-form-' . esc_attr($payment->id) . '">';
             echo '<input type="hidden" name="action" value="update_payment_status">';
             echo '<input type="hidden" name="payment_id" value="' . esc_attr($payment->id) . '">';
             wp_nonce_field('update_payment_status', 'payment_status_nonce');
 
+            echo '<td>';
+            if ($payment->payment_completed && $payment->payment_completed !== '0000-00-00 00:00:00') {
+                echo '<input type="date" name="payment_completed" value="' . esc_attr(date('Y-m-d', strtotime($payment->payment_completed))) . '" style="width: 100%;">';
+            } else {
+                echo '<input type="date" name="payment_completed" placeholder="YYYY-MM-DD" style="width: 100%;">';
+            }
+            echo '</td>';
+
+            echo '<td>';
             if ($payment->close_date && $payment->close_date !== '0000-00-00 00:00:00') {
                 echo '<input type="date" name="close_date" value="' . esc_attr(date('Y-m-d', strtotime($payment->close_date))) . '" style="width: 100%;">';
             } else {
@@ -191,5 +204,351 @@ function payments_admin_page() {
     echo '</div>';
 
     echo '</div>';
+}
+
+function wp_new_user_notification( $user_id, $deprecated = null, $notify = '' ) {
+    if ( null !== $deprecated ) {
+        _deprecated_argument( __FUNCTION__, '4.3.1' );
+    }
+
+    // Accepts only 'user', 'admin' , 'both' or default '' as $notify.
+    if ( ! in_array( $notify, array( 'user', 'admin', 'both', '' ), true ) ) {
+        return;
+    }
+
+    $user = get_userdata( $user_id );
+
+    /*
+     * The blogname option is escaped with esc_html() on the way into the database in sanitize_option().
+     * We want to reverse this for the plain text arena of emails.
+     */
+    $blogname = wp_specialchars_decode( get_option( 'blogname' ), ENT_QUOTES );
+
+    /**
+     * Filters whether the admin is notified of a new user registration.
+     *
+     * @since 6.1.0
+     *
+     * @param bool    $send Whether to send the email. Default true.
+     * @param WP_User $user User object for new user.
+     */
+    $send_notification_to_admin = apply_filters( 'wp_send_new_user_notification_to_admin', true, $user );
+
+    if ( 'user' !== $notify && true === $send_notification_to_admin ) {
+        $switched_locale = switch_to_locale( get_locale() );
+
+        $message = "
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <style>
+                .email-container {
+                    font-family: Arial, sans-serif;
+                    background-color: #FAF9F6;
+                    max-width: 600px;
+                    margin: 0 auto;
+                }
+
+                .email-header {
+                    text-align: center;
+                    font-size: 20px;
+                    font-weight: bold;
+                    padding-left: 20px;
+                    background-color: #f0eee6;
+                    height: 120px;
+                }
+
+                .email-content {
+                    margin: 30px;
+                }
+
+                .email-content p {
+                    margin: 10px 0;
+                }
+
+                .email-footer {
+                    margin-top: 20px;
+                    text-align: center;
+                    font-size: 12px;
+                    color: #777;
+                    background-color: #f0eee6;
+                    padding: 10px 20px;
+                    height: 60px;
+                }
+
+                .line {
+                    height: 2px;
+                    background-color: #37B048;
+                    margin: 20px 0;
+                }
+
+                @media (max-width: 400px) {
+                    .email-container {
+                        max-width: none;
+                    }
+                    .email-header {
+                        text-align: center;
+                        font-size: 20px;
+                        font-weight: bold;
+                        padding-left: 20px;
+                        background-color: #f0eee6;
+                        height: 90px;
+                    }
+                }
+            </style>
+        </head>
+
+        <body>
+            <div class='email-container'>
+                <div class='email-header'>
+                    <a href='https://wellnessgurucoach.com/' style='float: left; max-width: 50%; padding: 20px 0;'>
+                        <img width='206' height='75' style='width: 100%;height: 100%;' src='https://wellnessgurucoach.com/wp-content/uploads/2024/09/logo-2.svg' alt=''>
+                    </a>
+
+                    <div class='header_image' style='float: right; max-width: 40%; width: 100%;height: 100%;'>
+                        <img style='width: 100%;height: 100%;' src='https://wellnessgurucoach.com/wp-content/uploads/2024/09/image-13.jpg' alt=''>
+                    </div>
+                </div>
+
+                <div class='line'></div>
+
+                <div class='email-content'>
+        ";
+
+        /* translators: %s: Site title. */
+        $message = sprintf( __( 'New user registration on your site %s:' ), $blogname ) . "\r\n\r\n";
+        /* translators: %s: User login. */
+        $message .= sprintf( __( 'Username: %s' ), $user->user_login ) . "\r\n\r\n";
+        /* translators: %s: User email address. */
+        $message .= sprintf( __( 'Email: %s' ), $user->user_email ) . "\r\n";
+
+        $message .= "
+                </div>
+                <div class='line'></div>
+
+                <div class='email-footer'>
+                    <a style='float: left; margin-top: 9px;' href='https://wellnessgurucoach.com/'>
+                        <img width='104' height='38' src='https://wellnessgurucoach.com/wp-content/uploads/2024/09/logo-1.svg' alt=''>
+                    </a>
+
+                    <div style='float: right; margin-top: 17px;' class='socials'>
+                        <a href='https://www.instagram.com/marina_wellnessguru/'>
+                            <img width='25' height='25' src='https://wellnessgurucoach.com/wp-content/uploads/2024/10/vector.svg' alt=''>
+                        </a>
+                        <a style='margin-left: 10px;' href='https://www.facebook.com/marina.vaysbaum'>
+                            <img width='25' height='25' src='https://wellnessgurucoach.com/wp-content/uploads/2024/10/fa-brands_facebook.svg' alt=''>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </body>
+        </html>
+        ";
+
+        $wp_new_user_notification_email_admin = array(
+            'to'      => get_option( 'admin_email' ),
+            /* translators: New user registration notification email subject. %s: Site title. */
+            'subject' => __( '[%s] New User Registration' ),
+            'message' => $message,
+            'headers' => 'Content-Type: text/html; charset=UTF-8',
+        );
+
+        /**
+         * Filters the contents of the new user notification email sent to the site admin.
+         *
+         * @since 4.9.0
+         *
+         * @param array   $wp_new_user_notification_email_admin {
+         *     Used to build wp_mail().
+         *
+         *     @type string $to      The intended recipient - site admin email address.
+         *     @type string $subject The subject of the email.
+         *     @type string $message The body of the email.
+         *     @type string $headers The headers of the email.
+         * }
+         * @param WP_User $user     User object for new user.
+         * @param string  $blogname The site title.
+         */
+        $wp_new_user_notification_email_admin = apply_filters( 'wp_new_user_notification_email_admin', $wp_new_user_notification_email_admin, $user, $blogname );
+
+        wp_mail(
+            $wp_new_user_notification_email_admin['to'],
+            wp_specialchars_decode( sprintf( $wp_new_user_notification_email_admin['subject'], $blogname ) ),
+            $wp_new_user_notification_email_admin['message'],
+            $wp_new_user_notification_email_admin['headers']
+        );
+
+        if ( $switched_locale ) {
+            restore_previous_locale();
+        }
+    }
+
+    /**
+     * Filters whether the user is notified of their new user registration.
+     *
+     * @since 6.1.0
+     *
+     * @param bool    $send Whether to send the email. Default true.
+     * @param WP_User $user User object for new user.
+     */
+    $send_notification_to_user = apply_filters( 'wp_send_new_user_notification_to_user', true, $user );
+
+    // `$deprecated` was pre-4.3 `$plaintext_pass`. An empty `$plaintext_pass` didn't sent a user notification.
+    if ( 'admin' === $notify || true !== $send_notification_to_user || ( empty( $deprecated ) && empty( $notify ) ) ) {
+        return;
+    }
+
+    $key = get_password_reset_key( $user );
+    if ( is_wp_error( $key ) ) {
+        return;
+    }
+
+    $switched_locale = switch_to_user_locale( $user_id );
+
+    /* translators: %s: User login. */
+    $message = "
+    <!DOCTYPE html>
+	<html>
+	<head>
+		<style>
+			.email-container {
+				font-family: Arial, sans-serif;
+				background-color: #FAF9F6;
+				max-width: 600px;
+				margin: 0 auto;
+			}
+
+			.email-header {
+				text-align: center;
+				font-size: 20px;
+				font-weight: bold;
+				padding-left: 20px;
+				background-color: #f0eee6;
+				height: 120px;
+			}
+
+			.email-content {
+				margin: 30px;
+			}
+
+			.email-content p {
+				margin: 10px 0;
+			}
+
+			.email-footer {
+				margin-top: 20px;
+				text-align: center;
+				font-size: 12px;
+				color: #777;
+				background-color: #f0eee6;
+				padding: 10px 20px;
+				height: 60px;
+			}
+
+			.line {
+				height: 2px;
+				background-color: #37B048;
+				margin: 20px 0;
+			}
+
+			@media (max-width: 400px) {
+				.email-container {
+					max-width: none;
+				}
+				.email-header {
+					text-align: center;
+					font-size: 20px;
+					font-weight: bold;
+					padding-left: 20px;
+					background-color: #f0eee6;
+					height: 90px;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class='email-container'>
+			<div class='email-header'>
+				<a href='https://wellnessgurucoach.com/' style='float: left; max-width: 50%; padding: 20px 0;'>
+					<img width='206' height='75' style='width: 100%;height: 100%;' src='https://wellnessgurucoach.com/wp-content/uploads/2024/09/logo-2.svg' alt=''>
+				</a>
+
+				<div class='header_image' style='float: right; max-width: 40%; width: 100%;height: 100%;'>
+					<img style='width: 100%;height: 100%;' src='https://wellnessgurucoach.com/wp-content/uploads/2024/09/image-13.jpg' alt=''>
+				</div>
+			</div>
+
+			<div class='line'></div>
+
+			<div class='email-content'>
+    ";
+
+    $message .= sprintf( __( 'Username: %s' ), $user->user_login ) . "\r\n\r\n";
+    $message .= __( 'To set your password, visit the following address:' ) . "\r\n\r\n";
+    $message .= network_site_url( "wp-login.php?action=rp&key=$key&login=" . rawurlencode( $user->user_login ), 'login' ) . "\r\n\r\n";
+
+    $message .= wp_login_url() . "\r\n";
+
+
+    $message .= "
+            </div>
+			<div class='line'></div>
+
+			<div class='email-footer'>
+				<a style='float: left; margin-top: 9px;' href='https://wellnessgurucoach.com/'>
+					<img width='104' height='38' src='https://wellnessgurucoach.com/wp-content/uploads/2024/09/logo-1.svg' alt=''>
+				</a>
+
+				<div style='float: right; margin-top: 17px;' class='socials'>
+					<a href='https://www.instagram.com/marina_wellnessguru/'>
+						<img width='25' height='25' src='https://wellnessgurucoach.com/wp-content/uploads/2024/10/vector.svg' alt=''>
+					</a>
+					<a style='margin-left: 10px;' href='https://www.facebook.com/marina.vaysbaum'>
+						<img width='25' height='25' src='https://wellnessgurucoach.com/wp-content/uploads/2024/10/fa-brands_facebook.svg' alt=''>
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+	</html>
+    ";
+
+    $wp_new_user_notification_email = array(
+        'to'      => $user->user_email,
+        /* translators: Login details notification email subject. %s: Site title. */
+        'subject' => __( '[%s] Login Details' ),
+        'message' => $message,
+        'headers' => 'Content-Type: text/html; charset=UTF-8',
+    );
+
+    /**
+     * Filters the contents of the new user notification email sent to the new user.
+     *
+     * @since 4.9.0
+     *
+     * @param array   $wp_new_user_notification_email {
+     *     Used to build wp_mail().
+     *
+     *     @type string $to      The intended recipient - New user email address.
+     *     @type string $subject The subject of the email.
+     *     @type string $message The body of the email.
+     *     @type string $headers The headers of the email.
+     * }
+     * @param WP_User $user     User object for new user.
+     * @param string  $blogname The site title.
+     */
+    $wp_new_user_notification_email = apply_filters( 'wp_new_user_notification_email', $wp_new_user_notification_email, $user, $blogname );
+
+    wp_mail(
+        $wp_new_user_notification_email['to'],
+        wp_specialchars_decode( sprintf( $wp_new_user_notification_email['subject'], $blogname ) ),
+        $wp_new_user_notification_email['message'],
+        $wp_new_user_notification_email['headers']
+    );
+
+    if ( $switched_locale ) {
+        restore_previous_locale();
+    }
 }
 ?>
