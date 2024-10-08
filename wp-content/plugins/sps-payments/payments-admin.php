@@ -317,8 +317,10 @@ function wp_new_user_notification( $user_id, $deprecated = null, $notify = '' ) 
 
         /* translators: %s: Site title. */
         $message .= sprintf( __( 'New user registration on your site %s:' ), $blogname ) . "\r\n\r\n";
+        $message .= '<br>' . "\r\n\r\n";
         /* translators: %s: User login. */
         $message .= sprintf( __( 'Username: %s' ), $user->user_login ) . "\r\n\r\n";
+        $message .= '<br>' . "\r\n\r\n";
         /* translators: %s: User email address. */
         $message .= sprintf( __( 'Email: %s' ), $user->user_email ) . "\r\n";
 
@@ -485,9 +487,11 @@ function wp_new_user_notification( $user_id, $deprecated = null, $notify = '' ) 
     ";
 
     $message .= sprintf( __( 'Username: %s' ), $user->user_login ) . "\r\n\r\n";
+    $message .= '<br>';
     $message .= __( 'To set your password, visit the following address:' ) . "\r\n\r\n";
+    $message .= '<br>';
     $message .= network_site_url( "wp-login.php?action=rp&key=$key&login=" . rawurlencode( $user->user_login ), 'login' ) . "\r\n\r\n";
-
+    $message .= '<br>';
     $message .= wp_login_url() . "\r\n";
 
 
