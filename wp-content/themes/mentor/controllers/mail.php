@@ -125,7 +125,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			.email-footer {
 				margin-top: 20px;
 				text-align: center;
-				font-size: 12px;
+				font-size: 0px;
 				color: #777;
 				background-color: #f0eee6;
 				padding: 10px 20px;

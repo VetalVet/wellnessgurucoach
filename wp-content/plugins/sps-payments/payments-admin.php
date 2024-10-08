@@ -269,7 +269,7 @@ function wp_new_user_notification( $user_id, $deprecated = null, $notify = '' ) 
                 .email-footer {
                     margin-top: 20px;
                     text-align: center;
-                    font-size: 12px;
+                    font-size: 0px;
                     color: #777;
                     background-color: #f0eee6;
                     padding: 10px 20px;
@@ -316,7 +316,7 @@ function wp_new_user_notification( $user_id, $deprecated = null, $notify = '' ) 
         ";
 
         /* translators: %s: Site title. */
-        $message = sprintf( __( 'New user registration on your site %s:' ), $blogname ) . "\r\n\r\n";
+        $message .= sprintf( __( 'New user registration on your site %s:' ), $blogname ) . "\r\n\r\n";
         /* translators: %s: User login. */
         $message .= sprintf( __( 'Username: %s' ), $user->user_login ) . "\r\n\r\n";
         /* translators: %s: User email address. */
@@ -438,7 +438,7 @@ function wp_new_user_notification( $user_id, $deprecated = null, $notify = '' ) 
 			.email-footer {
 				margin-top: 20px;
 				text-align: center;
-				font-size: 12px;
+				font-size: 0px;
 				color: #777;
 				background-color: #f0eee6;
 				padding: 10px 20px;
